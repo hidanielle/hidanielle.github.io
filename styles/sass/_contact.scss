@@ -1,0 +1,50 @@
+.contact {
+  background: {
+    color: $col-neutral;
+    image: url('../img/contact-bg.png');
+    repeat: no-repeat;
+    size: cover;
+    position: bottom;
+  }
+  padding: 6em 0;
+  color: white;
+  form {
+    margin-top: 4em;
+    * {
+      background-color: transparent;
+    }
+  }
+  input {
+    float: left;
+    width: 48%;
+    line-height: 4;
+    font-family: $font-header;
+    text-transform: uppercase;
+    &:last-of-type {
+      float: right;
+    }
+    @media #{$medium-screen} {
+      width: 100%;
+      float: left;
+      line-height: 3;
+      &:last-of-type {
+        margin-top: 3em;
+      }
+    }
+  }
+  textarea {
+    width: 100%;
+    margin-top: 3em;
+    font-family: $font-body;
+    height: 8em;
+  }
+  input,
+  textarea {
+    border-top: none;
+    border-left: none;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    font-size: 1.2em;
+    color: white;
+  }
+}

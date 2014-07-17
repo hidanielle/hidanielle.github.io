@@ -1,0 +1,52 @@
+body,
+html {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  background-color: #999;
+}
+
+a {
+  text-decoration: none;
+  color: $col-accent;
+  transition: color 0.1s;
+  &:hover {
+    color: $col-main;
+  }
+}
+
+p {
+  font-family: $font-body;
+  font-size: 1.5em;
+  line-height: 2;
+  @media #{$medium-screen} {
+    line-height: 1.5;
+    font-size: 1.2em;
+  }
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+h3 {
+  font-family: $font-header;
+  font-size: 1.6875em;
+  text-transform: uppercase;
+}
+
+section {
+  width: 100%;
+}
+
+article {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+label {
+  display: none;
+}
