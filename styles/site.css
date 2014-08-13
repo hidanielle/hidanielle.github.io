@@ -2817,6 +2817,10 @@ header {
     border-right: 3px solid white;
     font-size: 1.2em;
     color: white; }
+    .contact input:focus,
+    .contact textarea:focus {
+      outline: none;
+      border-color: #f7b322; }
 
 .ie-overlay {
   position: absolute;
