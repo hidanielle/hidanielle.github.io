@@ -1,12 +1,13 @@
 .work {
   background-color: white;
   min-height: 3em;
-  padding: 6em 0;
+  padding: 12em 0;
   article:not(:last-child) {
     padding-bottom: 4em;
   }
   h3 {
     color: $col-neutral;
+    padding-bottom: 1.5em;
     span {
       position: relative;
       color: $col-main;
@@ -23,7 +24,13 @@
   }
   img {
     width: 100%;
-    margin: 2em 0;
+    margin-bottom: 2em;
+    &.img-mobile {
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+      max-width: 700px;
+    }
   }
   a {
     @extend h3;
@@ -42,16 +49,6 @@
       padding: 0.3em 0;
     }
   }
-  .side-line {
-    width: 1.2%;
-    height: 10em;
-    float: left;
-    background-color: $col-light;
-  }
-  .work-wrap {
-    float: right;
-    width: 96%;
-  }
   @media #{$medium-screen} {
     .side-line {
       display: none;
@@ -60,5 +57,21 @@
       width: 100%;
       float: left;
     }
+  }
+}
+
+.side-line {
+  width: 1.2%;
+  height: 10em;
+  float: left;
+  background-color: $col-light;
+}
+
+.work-wrap {
+  float: right;
+  width: 96%;
+  .feature & {
+    width: 100%;
+    float: none;
   }
 }
