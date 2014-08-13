@@ -1,3 +1,10 @@
+::selection {
+  background: $col-accent; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $col-accent; /* Gecko Browsers */
+}
+
 body,
 html {
   height: 100%;

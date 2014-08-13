@@ -2488,6 +2488,14 @@ Copyright (c) 2014 Daniel Eden
 /* orange */
 /* dark grey */
 /* light grey */
+::selection {
+  background: #f7b322;
+  /* WebKit/Blink Browsers */ }
+
+::-moz-selection {
+  background: #f7b322;
+  /* Gecko Browsers */ }
+
 body,
 html {
   height: 100%;
