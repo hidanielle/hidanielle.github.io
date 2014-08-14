@@ -59,9 +59,6 @@
     h1 {
       font-size: 1.9em;
       margin-top: 0.4em;
-      @media #{$small-screen} {
-        font-size: 1.4em;
-      }
     }
     h2 {
       display: none;

@@ -4,6 +4,9 @@
   padding: 12em 0;
   article:not(:last-child) {
     padding-bottom: 4em;
+    @media #{$medium-screen} {
+      padding-bottom: 6em;
+    }
   }
   h3 {
     color: $col-neutral;
@@ -32,7 +35,7 @@
       max-width: 700px;
     }
   }
-  a {
+  a.btn-work {
     @extend h3;
     color: $col-accent;
     font-size: 1.2em;
@@ -50,6 +53,7 @@
     }
   }
   @media #{$medium-screen} {
+    padding: 6em 0;
     .side-line {
       display: none;
     }

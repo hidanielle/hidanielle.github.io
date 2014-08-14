@@ -18,9 +18,6 @@ nav {
   ul {
     float: right;
     line-height: 5;
-    @media #{$small-screen} {
-      display: none;
-    }
   }
   li {
     display: inline;
@@ -43,11 +40,5 @@ nav {
   }
   &.nav-dark {
     background-color: $col-neutral;
-  }
-  @media #{$medium-screen} {
-    padding: 0 1.5em;
-  }
-  @media #{$small-screen} {
-    height: 3.5em;
   }
 }

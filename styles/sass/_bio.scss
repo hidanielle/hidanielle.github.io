@@ -31,17 +31,11 @@
   .bio-open {
     display: none;
   }
+  .btn-open {
+    display: none;
+  }
   p {
     display: block;
     margin: 0 auto;
   }
-}
-
-.bio-btn {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 2em;
-  height: 2em;
-  cursor: pointer;
 }
