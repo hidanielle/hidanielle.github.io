@@ -53,7 +53,7 @@ $('.section-light').waypoint(function(direction) {
   $('nav').toggleClass('nav-dark');
 }, {
   offset: function() {
-    return -$(this).height();
+    return -$(this).outerHeight();
   }
 });
 
