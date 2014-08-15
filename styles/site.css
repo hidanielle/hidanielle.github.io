@@ -2644,6 +2644,9 @@ header .logo {
 nav .logo h1 {
   font-size: 1.9em;
   margin-top: 0.4em; }
+  @media (max-width: 520px) {
+    nav .logo h1 {
+      font-size: 1.5em; } }
 nav .logo h2 {
   display: none; }
 .ie .scrolled .logo h1 {
@@ -2677,6 +2680,9 @@ nav {
   nav ul {
     float: right;
     line-height: 5; }
+    @media (max-width: 520px) {
+      nav ul {
+        line-height: 4; } }
   nav li {
     display: inline;
     padding-right: 2em;
@@ -2695,12 +2701,19 @@ nav {
       animation-duration: 0.5s; }
   nav.nav-dark {
     background-color: #2b3234; }
+  @media (max-width: 520px) {
+    nav {
+      padding: 0 1em; } }
 
 header {
   background-color: white;
   width: 100%;
   height: 20.3125em;
   padding: 8em 0; }
+  @media (max-width: 520px) {
+    header {
+      height: 14em;
+      padding: 5em 0; } }
 
 .bio {
   position: relative;
@@ -2784,14 +2797,15 @@ header {
       .work a.btn-work {
         width: 100%;
         padding: 0.3em 0; } }
-  @media (max-width: 767px) {
+  @media (max-width: 520px) {
     .work {
-      padding: 6em 0; }
-      .work .side-line {
-        display: none; }
-      .work .work-wrap {
-        width: 100%;
-        float: left; } }
+      padding: 8em 0; } }
+  @media (max-width: 767px) {
+    .work .side-line {
+      display: none; }
+    .work .work-wrap {
+      width: 100%;
+      float: left; } }
 
 .side-line {
   width: 1.2%;
