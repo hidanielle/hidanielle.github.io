@@ -27,7 +27,7 @@ $('.section-light').waypoint(function(direction) {
 });
 
 $('.btn-up').waypoint(function() {
-  $('.btn-up').addClass('animated fadeInUp');
+  $('.btn-up').toggleClass('animated fadeInUp');
 }, {
   offset: 'bottom-in-view'
 });
