@@ -6,6 +6,10 @@ $('.bio-btn').click(function() {
   }
 });
 
+$('.btn-nav-open').click(function() {
+  $('nav > ul').slideToggle();
+});
+
 $('nav').waypoint('sticky', {
   offset: 100,
   stuckClass: 'scrolled',

@@ -13,7 +13,7 @@
     text-align: center;
     line-height: 8;
     font-family: $font-body;
-    @media #{$medium-screen} {
+    @include breakpoint(med-screen) {
       line-height: 6;
     }
   }
@@ -24,8 +24,8 @@
 
 .bio-long {
   padding: 8em 0;
-  @media #{$large-screen} {
-    padding: 15em 0;
+  @include breakpoint(lrg-screen) {
+    padding: 5.8em 0;
     background-position: center 60%;
   }
   .bio-open {

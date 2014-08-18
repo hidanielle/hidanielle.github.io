@@ -4,7 +4,7 @@
   text-indent: -9999px;
   width: 48px;
   height: 48px;
-  @media #{$medium-screen} {
+  @include breakpoint(med-screen) {
     background-image: url('../img/icon-setx2.png');
     background-size: cover;
   }
@@ -12,13 +12,13 @@
 
 .btn-close { 
   background-position: -6px -7px; 
-  @media #{$medium-screen} {
+  @include breakpoint(med-screen) {
     background-position: -6px -5px;
   } 
 }
 .btn-open { 
   background-position: -66px -7px;
-  @media #{$medium-screen} {
+  @include breakpoint(med-screen) {
     background-position: -48px -5px;
   } 
 }
@@ -26,7 +26,7 @@
   display: block;
   margin: 3em auto;
   background-position: -126px -7px; 
-  @media #{$medium-screen} {
+  @include breakpoint(med-screen) {
     background-position: -96px -5px;
     margin: 1em auto;
   }  
@@ -39,4 +39,13 @@
   right:0;
   margin: 0 auto;
   cursor: pointer;
+}
+
+.btn-nav-open {
+  display: none;
+  @include breakpoint(sml-screen) {
+    display: block;
+    float: right;
+    line-height: 4;
+  }
 }
