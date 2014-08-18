@@ -2556,7 +2556,8 @@ label {
   background-repeat: no-repeat;
   text-indent: -9999px;
   width: 48px;
-  height: 48px; }
+  height: 48px;
+  cursor: pointer; }
   @media (max-width: 767px) {
     .btn {
       background-image: url("../img/icon-setx2.png");
@@ -2592,7 +2593,10 @@ label {
   cursor: pointer; }
 
 .btn-nav-open {
-  display: none; }
+  display: none;
+  width: 63px;
+  height: 63px;
+  background-position: -189px -1px; }
   @media (max-width: 520px) {
     .btn-nav-open {
       display: block;

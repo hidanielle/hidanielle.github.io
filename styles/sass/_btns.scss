@@ -4,6 +4,7 @@
   text-indent: -9999px;
   width: 48px;
   height: 48px;
+  cursor: pointer;
   @include breakpoint(med-screen) {
     background-image: url('../img/icon-setx2.png');
     background-size: cover;
@@ -43,6 +44,9 @@
 
 .btn-nav-open {
   display: none;
+  width: 63px;
+  height: 63px;
+  background-position: -189px -1px; 
   @include breakpoint(sml-screen) {
     display: block;
     float: right;
