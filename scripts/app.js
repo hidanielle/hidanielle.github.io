@@ -10,6 +10,12 @@ $('.btn-nav-open').click(function() {
   $('nav > ul').slideToggle();
 });
 
+$(window).on("resize", function () {
+  if ($(window).width() > 500) {
+      $('nav > ul').css('display','');
+  }
+}).resize();
+
 $('nav').waypoint('sticky', {
   offset: 100,
   stuckClass: 'scrolled',

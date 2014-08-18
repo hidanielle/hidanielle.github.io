@@ -17,6 +17,7 @@ nav {
   }
   ul {
     float: right;
+    display: block;
     line-height: 5;
     @include breakpoint(sml-screen) {
       display: none;
@@ -66,8 +67,4 @@ nav {
   @include breakpoint(sml-screen) {
     padding: 0 1em;
   } 
-}
-
-.r-nav {
-
 }

@@ -2691,6 +2691,7 @@ nav {
   font-family: "BenchNine", sans-serif; }
   nav ul {
     float: right;
+    display: block;
     line-height: 5; }
     @media (max-width: 520px) {
       nav ul {
