@@ -23,7 +23,7 @@
     &:last-of-type {
       float: right;
     }
-    @media #{$medium-screen} {
+    @include breakpoint(med-screen) {
       width: 100%;
       float: left;
       line-height: 3;

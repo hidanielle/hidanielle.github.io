@@ -18,9 +18,11 @@ nav {
   ul {
     float: right;
     line-height: 5;
-    @media #{$small-screen} {
-      line-height: 4;
-    } 
+    @include breakpoint(sml-screen) {
+      display: none;
+      width: 100%;
+      clear: both;
+    }
   }
   li {
     display: inline;
@@ -28,6 +30,23 @@ nav {
     padding-left: 1em;
     &.active {
       border-left: 4px solid $col-light;
+    }
+    @include breakpoint(sml-screen) {
+      display: block;
+      line-height: 3;
+      text-align: center;
+      a {
+        display: inline-block;
+        width: 100%;
+      }
+      &:not(:last-child) {
+        border-bottom: 1px solid $col-light;
+      }
+      &.active {
+        border-left: none;
+        border-right: 1px solid $col-light;
+        border-bottom: 1px solid $col-light;
+      }
     }
   }
   &.scrolled {
@@ -44,7 +63,11 @@ nav {
   &.nav-dark {
     background-color: $col-neutral;
   }
-  @media #{$small-screen} {
+  @include breakpoint(sml-screen) {
     padding: 0 1em;
   } 
+}
+
+.r-nav {
+
 }

@@ -2591,6 +2591,14 @@ label {
   margin: 0 auto;
   cursor: pointer; }
 
+.btn-nav-open {
+  display: none; }
+  @media (max-width: 520px) {
+    .btn-nav-open {
+      display: block;
+      float: right;
+      line-height: 4; } }
+
 .logo h1 {
   position: relative;
   float: left;
@@ -2682,13 +2690,29 @@ nav {
     line-height: 5; }
     @media (max-width: 520px) {
       nav ul {
-        line-height: 4; } }
+        display: none;
+        width: 100%;
+        clear: both; } }
   nav li {
     display: inline;
     padding-right: 2em;
     padding-left: 1em; }
     nav li.active {
       border-left: 4px solid #ebebeb; }
+    @media (max-width: 520px) {
+      nav li {
+        display: block;
+        line-height: 3;
+        text-align: center; }
+        nav li a {
+          display: inline-block;
+          width: 100%; }
+        nav li:not(:last-child) {
+          border-bottom: 1px solid #ebebeb; }
+        nav li.active {
+          border-left: none;
+          border-right: 1px solid #ebebeb;
+          border-bottom: 1px solid #ebebeb; } }
   nav.scrolled {
     display: block;
     position: fixed;
@@ -2740,9 +2764,9 @@ header {
 
 .bio-long {
   padding: 8em 0; }
-  @media (min-width: 1200px) {
+  @media (max-width: 1200px) {
     .bio-long {
-      padding: 15em 0;
+      padding: 5.8em 0;
       background-position: center 60%; } }
   .bio-long .bio-open {
     display: none; }
@@ -2755,12 +2779,12 @@ header {
 .work {
   background-color: white;
   min-height: 3em;
-  padding: 12em 0; }
-  .work article:not(:last-child) {
-    padding-bottom: 4em; }
-    @media (max-width: 767px) {
+  padding: 12em 0 2em 0; }
+  .work article {
+    padding: 3em 0; }
+    @media (max-width: 520px) {
       .work article:not(:last-child) {
-        padding-bottom: 6em; } }
+        border-bottom: 1px solid #ebebeb; } }
   .work h3, .work a.btn-work {
     color: #2b3234;
     padding-bottom: 1.5em; }
@@ -2770,11 +2794,20 @@ header {
       padding: 0 0.5em;
       display: inline-block;
       margin-left: 0.4em; }
+      @media (max-width: 520px) {
+        .work h3 span, .work a.btn-work span {
+          display: block;
+          padding: 0;
+          margin: 0;
+          font-size: 0.8em; } }
       .work h3 span:before, .work a.btn-work span:before {
         position: absolute;
         content: '|';
         left: 0;
         color: #2b3234; }
+        @media (max-width: 520px) {
+          .work h3 span:before, .work a.btn-work span:before {
+            content: ''; } }
   .work img {
     width: 100%;
     margin-bottom: 2em; }
@@ -2797,9 +2830,13 @@ header {
       .work a.btn-work {
         width: 100%;
         padding: 0.3em 0; } }
+    .feature .work a.btn-work {
+      float: left; }
   @media (max-width: 520px) {
     .work {
-      padding: 8em 0; } }
+      padding: 5em 0 2.4em 0; }
+      .feature .work {
+        padding-top: 8em; } }
   @media (max-width: 767px) {
     .work .side-line {
       display: none; }

@@ -28,7 +28,7 @@ p {
   font-family: $font-body;
   font-size: 1.5em;
   line-height: 2;
-  @media #{$medium-screen} {
+  @include breakpoint(med-screen) {
     line-height: 1.5;
     font-size: 1.2em;
   }
