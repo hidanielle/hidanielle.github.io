@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, .work a.btn-work, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, .btn-all, .btn-work, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -2513,7 +2513,7 @@ body {
 a {
   text-decoration: none;
   color: #f7b322;
-  transition: color 0.1s; }
+  transition: all 0.1s; }
   a:hover {
     color: #21a1bd; }
 
@@ -2529,7 +2529,7 @@ p {
 h2 {
   font-size: 2.3em; }
 
-h3, .work a.btn-work {
+h3, .btn-all, .btn-work {
   font-family: "BenchNine", sans-serif;
   font-size: 1.6875em;
   text-transform: uppercase; }
@@ -2576,13 +2576,35 @@ label {
       background-position: -48px -5px; } }
 
 .btn-up {
-  display: block;
-  margin: 3em auto;
+  display: inline-block;
   background-position: -126px -7px; }
   @media (max-width: 767px) {
     .btn-up {
       background-position: -96px -5px;
       margin: 1em auto; } }
+
+.btn-all {
+  color: #f7b322;
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 3em; }
+
+.btn-work {
+  color: #f7b322;
+  font-size: 1.2em;
+  border: 4px solid #f7b322;
+  text-align: center;
+  padding: 0.3em 2em;
+  text-decoration: none;
+  float: right; }
+  .btn-work:hover {
+    border-color: #21a1bd; }
+  @media (max-width: 520px) {
+    .btn-work {
+      width: 100%;
+      padding: 0.3em 0; } }
+  .feature .btn-work {
+    float: left; }
 
 .bio-btn {
   position: absolute;
@@ -2790,29 +2812,6 @@ header {
     @media (max-width: 520px) {
       .work article:not(:last-child) {
         border-bottom: 1px solid #ebebeb; } }
-  .work h3, .work a.btn-work {
-    color: #2b3234;
-    padding-bottom: 1.5em; }
-    .work h3 span, .work a.btn-work span {
-      position: relative;
-      color: #21a1bd;
-      padding: 0 0.5em;
-      display: inline-block;
-      margin-left: 0.4em; }
-      @media (max-width: 520px) {
-        .work h3 span, .work a.btn-work span {
-          display: block;
-          padding: 0;
-          margin: 0;
-          font-size: 0.8em; } }
-      .work h3 span:before, .work a.btn-work span:before {
-        position: absolute;
-        content: '|';
-        left: 0;
-        color: #2b3234; }
-        @media (max-width: 520px) {
-          .work h3 span:before, .work a.btn-work span:before {
-            content: ''; } }
   .work img {
     width: 100%;
     margin-bottom: 2em; }
@@ -2821,22 +2820,6 @@ header {
       margin: 0 auto;
       display: block;
       max-width: 700px; }
-  .work a.btn-work {
-    color: #f7b322;
-    font-size: 1.2em;
-    border: 4px solid #f7b322;
-    text-align: center;
-    padding: 0.3em 2em;
-    text-decoration: none;
-    float: right; }
-    .work a.btn-work:hover {
-      text-decoration: underline; }
-    @media (max-width: 520px) {
-      .work a.btn-work {
-        width: 100%;
-        padding: 0.3em 0; } }
-    .feature .work a.btn-work {
-      float: left; }
   @media (max-width: 520px) {
     .work {
       padding: 5em 0 2.4em 0; }
@@ -2848,6 +2831,30 @@ header {
     .work .work-wrap {
       width: 100%;
       float: left; } }
+
+.project-title {
+  color: #2b3234;
+  padding-bottom: 1.5em; }
+  .project-title span {
+    position: relative;
+    color: #21a1bd;
+    padding: 0 0.5em;
+    display: inline-block;
+    margin-left: 0.4em; }
+    @media (max-width: 520px) {
+      .project-title span {
+        display: block;
+        padding: 0;
+        margin: 0;
+        font-size: 0.8em; } }
+    .project-title span:before {
+      position: absolute;
+      content: '|';
+      left: 0;
+      color: #2b3234; }
+      @media (max-width: 520px) {
+        .project-title span:before {
+          content: ''; } }
 
 .side-line {
   width: 1.2%;
@@ -2861,6 +2868,11 @@ header {
   .feature .work-wrap {
     width: 100%;
     float: none; }
+
+.action-wrap {
+  margin: 2em auto;
+  text-align: center;
+  width: 9em; }
 
 .contact {
   background-color: #2b3234;

@@ -10,32 +10,6 @@
       }
     }
   }
-  h3 {
-    color: $col-neutral;
-    padding-bottom: 1.5em;
-    span {
-      position: relative;
-      color: $col-main;
-      padding: 0 0.5em;
-      display: inline-block;
-      margin-left: 0.4em;
-      @include breakpoint(sml-screen) { 
-        display: block;
-        padding: 0;
-        margin: 0;
-        font-size: 0.8em;
-      }
-      &:before {
-        position: absolute;
-        content: '|';
-        left: 0;
-        color: $col-neutral;
-        @include breakpoint(sml-screen) {
-          content: '';
-        }
-      }
-    }
-  }
   img {
     width: 100%;
     margin-bottom: 2em;
@@ -44,26 +18,6 @@
       margin: 0 auto;
       display: block;
       max-width: 700px;
-    }
-  }
-  a.btn-work {
-    @extend h3;
-    color: $col-accent;
-    font-size: 1.2em;
-    border: 4px solid $col-accent;
-    text-align: center;
-    padding: 0.3em 2em;
-    text-decoration: none;
-    float: right;
-    &:hover {
-      text-decoration: underline;
-    }
-    @include breakpoint(sml-screen) {
-      width: 100%;
-      padding: 0.3em 0;
-    }
-    .feature & {
-      float: left;
     }
   }
   @include breakpoint(sml-screen) {
@@ -83,6 +37,33 @@
   }
 }
 
+.project-title {
+  color: $col-neutral;
+  padding-bottom: 1.5em;
+  span {
+    position: relative;
+    color: $col-main;
+    padding: 0 0.5em;
+    display: inline-block;
+    margin-left: 0.4em;
+    @include breakpoint(sml-screen) { 
+      display: block;
+      padding: 0;
+      margin: 0;
+      font-size: 0.8em;
+    }
+    &:before {
+      position: absolute;
+      content: '|';
+      left: 0;
+      color: $col-neutral;
+      @include breakpoint(sml-screen) {
+        content: '';
+      }
+    }
+  }
+}
+
 .side-line {
   width: 1.2%;
   height: 10em;
@@ -97,4 +78,10 @@
     width: 100%;
     float: none;
   }
+}
+
+.action-wrap {
+  margin: 2em auto;
+  text-align: center;
+  width: 9em;
 }
