@@ -34,14 +34,18 @@ p {
   }
 }
 
+%header-font {
+  font-family: $font-header;
+  text-transform: uppercase;
+}
+
 h2 {
   font-size: 2.3em;
 }
 
 h3 {
-  font-family: $font-header;
+  @extend %header-font;
   font-size: 1.6875em;
-  text-transform: uppercase;
 }
 
 section {

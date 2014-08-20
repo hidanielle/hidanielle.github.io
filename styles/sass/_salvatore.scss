@@ -23,4 +23,16 @@
 
 .item {
   margin: 1em;
+  padding: 1em;
+  background-color: $col-light;
+  .project-title {
+    padding-bottom: 0;
+  }
+  span {
+    @extend %header-font;
+    color: $col-main;
+  }
+  a {
+    @extend %header-font;
+  }
 }

@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, .btn-all, .btn-work, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -2526,13 +2526,15 @@ p {
       line-height: 1.5;
       font-size: 1.2em; } }
 
+h3, .btn-all, .btn-work, .item span, .item a {
+  font-family: "BenchNine", sans-serif;
+  text-transform: uppercase; }
+
 h2 {
   font-size: 2.3em; }
 
-h3, .btn-all, .btn-work {
-  font-family: "BenchNine", sans-serif;
-  font-size: 1.6875em;
-  text-transform: uppercase; }
+h3 {
+  font-size: 1.6875em; }
 
 section {
   width: 100%; }
@@ -2632,6 +2634,8 @@ label {
   font-family: "Contrail One", cursive;
   font-weight: normal;
   font-size: 2.3125em; }
+  .logo h1 a {
+    color: #21a1bd; }
   .ie .logo h1 {
     text-indent: -9999px;
     height: 73px;
@@ -2941,7 +2945,13 @@ header {
   width: 33.333%; }
 
 .item {
-  margin: 1em; }
+  margin: 1em;
+  padding: 1em;
+  background-color: #ebebeb; }
+  .item .project-title {
+    padding-bottom: 0; }
+  .item span {
+    color: #21a1bd; }
 
 .ie-overlay {
   position: absolute;
