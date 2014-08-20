@@ -2931,7 +2931,10 @@ header {
 
 @media screen and (max-width: 480px) {
   #grid[data-columns]::before {
-    content: '1 .column.size-1of1'; } }
+    content: '1 .column.size-1of1'; }
+
+  #grid {
+    width: 100%; } }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #grid[data-columns]::before {
     content: '2 .column.size-1of2'; }
@@ -2940,10 +2943,7 @@ header {
     width: 100%; } }
 @media screen and (min-width: 769px) {
   #grid[data-columns]::before {
-    content: '3 .column.size-1of3'; }
-
-  #grid {
-    width: 100%; } }
+    content: '3 .column.size-1of3'; } }
 .column {
   float: left; }
 
