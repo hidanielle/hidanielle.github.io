@@ -9,6 +9,9 @@
         border-bottom: 1px solid $col-light
       }
     }
+    &:first-child {
+      padding-top: 0;
+    }
   }
   img {
     width: 100%;

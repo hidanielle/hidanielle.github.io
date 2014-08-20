@@ -2816,6 +2816,8 @@ header {
     @media (max-width: 520px) {
       .work article:not(:last-child) {
         border-bottom: 1px solid #ebebeb; } }
+    .work article:first-child {
+      padding-top: 0; }
   .work img {
     width: 100%;
     margin-bottom: 2em; }
