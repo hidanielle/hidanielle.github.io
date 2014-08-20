@@ -2952,6 +2952,8 @@ header {
     padding-bottom: 0; }
   .item span {
     color: #21a1bd; }
+  .item p {
+    padding-bottom: 1em; }
 
 .ie-overlay {
   position: absolute;

@@ -35,4 +35,7 @@
   a {
     @extend %header-font;
   }
+  p {
+    padding-bottom: 1em;
+  }
 }
