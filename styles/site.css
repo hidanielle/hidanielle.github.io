@@ -2830,7 +2830,7 @@ header {
     .work {
       padding: 5em 0 2.4em 0; }
       .feature .work {
-        padding-top: 8em; } }
+        padding-top: 6em; } }
   @media (max-width: 767px) {
     .work .side-line {
       display: none; }
