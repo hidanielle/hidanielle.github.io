@@ -2924,7 +2924,8 @@ header {
       border-color: #f7b322; }
 
 #grid {
-  border: none; }
+  border: none;
+  padding: 0; }
 
 @media screen and (max-width: 480px) {
   #grid[data-columns]::before {
