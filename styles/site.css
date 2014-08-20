@@ -2934,7 +2934,10 @@ header {
     content: '1 .column.size-1of1'; } }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #grid[data-columns]::before {
-    content: '2 .column.size-1of2'; } }
+    content: '2 .column.size-1of2'; }
+
+  #grid {
+    width: 90%; } }
 @media screen and (min-width: 769px) {
   #grid[data-columns]::before {
     content: '3 .column.size-1of3'; } }
@@ -2953,7 +2956,7 @@ header {
 .item {
   margin: 1em;
   padding: 1em;
-  background-color: #ebebeb; }
+  border: 1px solid #ebebeb; }
   .item .project-title {
     padding-bottom: 0; }
   .item span {

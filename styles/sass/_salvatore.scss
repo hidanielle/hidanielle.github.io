@@ -13,6 +13,9 @@
   #grid[data-columns]::before {
     content: '2 .column.size-1of2';
   }
+  #grid {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 769px) {
   #grid[data-columns]::before {
@@ -28,7 +31,10 @@
 .item {
   margin: 1em;
   padding: 1em;
-  background-color: $col-light;
+  border: 1px solid #ebebeb;
+  // img {
+  //   max-width: 350px;
+  // }
   .project-title {
     padding-bottom: 0;
   }
