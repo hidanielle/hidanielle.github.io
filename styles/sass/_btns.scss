@@ -81,3 +81,10 @@
     line-height: 4;
   }
 }
+
+button[type="submit"] {
+  background-position: -239px;
+  &:hover {
+    background-position: -283px;
+  }
+}
