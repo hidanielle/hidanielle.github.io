@@ -1,0 +1,27 @@
+header {
+  height: 25.3125em;
+  padding: 12em 0 8em 0;
+}
+
+nav {
+  height: auto;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #dedeef;
+}
+
+.bio h2 {
+  display: none;
+}
+
+.bio p {
+  display: block;
+}
+
+.bio article {
+  padding: 5em 0;
+}
+
+#grid[data-columns]::before {
+  opacity: 0;
+}
