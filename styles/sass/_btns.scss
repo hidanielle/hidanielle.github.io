@@ -33,7 +33,7 @@
 }
 
 .btn-all {
-  @extend h3;
+  @extend %header-font;
   color: $col-accent;
   font-size: 1.2em;
   display: block;
@@ -41,7 +41,7 @@
 }
 
 .btn-work {
-  @extend h3;
+  @extend %header-font;
   color: $col-accent;
   font-size: 1.2em;
   border: 4px solid $col-accent;

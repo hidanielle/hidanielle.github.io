@@ -8,6 +8,9 @@
       weight: normal;
       size: 2.3125em;
     }
+    a {
+      color: $col-main;
+    }
     .ie & {
       text-indent: -9999px;
       height: 73px;

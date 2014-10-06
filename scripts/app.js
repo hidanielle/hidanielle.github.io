@@ -42,3 +42,9 @@ $('.btn-up').waypoint(function() {
   offset: 'bottom-in-view'
 });
 
+// var container = document.querySelector('#container');
+// var msnry = new Masonry( container, {
+//   itemSelector: '.item',
+//   columnWidth: container.querySelector('.grid-sizer')
+// });
+

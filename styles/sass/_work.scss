@@ -9,6 +9,9 @@
         border-bottom: 1px solid $col-light
       }
     }
+    &:first-child {
+      padding-top: 0;
+    }
   }
   img {
     width: 100%;
@@ -23,7 +26,7 @@
   @include breakpoint(sml-screen) {
     padding: 5em 0 2.4em 0;
     .feature & {
-      padding-top: 8em;
+      padding-top: 6em;
     }
   }
   @include breakpoint(med-screen) {
