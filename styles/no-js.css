@@ -4,10 +4,10 @@ header {
 }
 
 nav {
+  background-color: #2b3234;
   height: auto;
   position: fixed;
   top: 0;
-  border-bottom: 1px solid #dedeef;
 }
 
 .bio h2 {
