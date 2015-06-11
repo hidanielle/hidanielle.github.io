@@ -1,3 +1,7 @@
 .DS_Store
 
+.sass-cache
 styles/.sass-cache
+styles/sass/.sass-cache
+
+node_modules/
