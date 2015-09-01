@@ -15,7 +15,7 @@
       text-indent: -9999px;
       height: 73px;
       width: 60px;
-      background-image: url('../img/dcg-logo.png');
+      background-image: url('../../img/dcg-logo.png');
     }
     &:after {
       @include transform(scaleY(-1));
@@ -25,7 +25,7 @@
       height: 1em;
       content: 'DCG';
       left: 0;
-      top: 0.8em;
+      top: 0.8em; 
       .ie & {
         display: none;
       }
