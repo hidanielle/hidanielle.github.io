@@ -1,0 +1,18 @@
+---
+layout: feature
+title:  "The Business Builders"
+date:   2016-03-11 12:48:54 -0500
+categories:
+- features
+tags: "design, branding, wireframe, CMS"
+img: "/assets/thumbs/th-desdev-tbb.jpg"
+---
+
+The Business Builders is a project I worked on with a close friend of mine. As an opportunity to sharpen my design skills, I designed the branding and logo as well as the website, from the ground up. The website is built on top of CouchCMS and deployments were done through [DeployBot](http://deploybot.com/) (formerly dploy.io). The CSS is very modular, with the goal being to be able to reuse as much of it as possible. 
+
+[View the live site here](http://thebusinessbuilders.com/)
+
+![The Business Builders website](/assets/feature/desdev-tbb.jpg)
+![The Business Builders logo](/assets/feature/desdev-tbb-logo.jpg)
+![The Business Builders website](/assets/feature/desdev-tbb2.jpg)
+![The Business Builders website](/assets/feature/desdev-tbb-mobile.jpg)

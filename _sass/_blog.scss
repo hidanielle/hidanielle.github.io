@@ -28,6 +28,9 @@
     + h1, + h2, + h3, + h4 {
       margin: 0 0 20px 0;
     }
+    + p {
+      margin-top: 0;
+    }
   }
 
   h3 {
@@ -38,7 +41,9 @@
     list-style: disc;
     margin-left: 40px;
   }
-
+  p {
+    margin: 1em 0;
+  }
   li {
     @extend %default-txt-style;
     li {
