@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "CSS Methodologies"
-date:   2015-08-01 12:48:54 -0500
+title:  "An intro to CSS Methodologies"
+date:   2015-03-06 12:48:54 -0500
 categories:
 - blog
 ---

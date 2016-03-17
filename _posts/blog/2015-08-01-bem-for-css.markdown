@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BEM for CSS"
-date:   2015-09-01 12:48:54 -0500
+date:   2015-08-01 12:48:54 -0500
 categories:
 - blog
 ---
