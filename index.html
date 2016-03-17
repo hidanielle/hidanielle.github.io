@@ -2,13 +2,13 @@
 layout: home
 ---
 
-<section id="bio" class="bio section-light text-center">
+<section id="bio" class="trigger bio section-light text-center">
   <article>
     <h2>Front-end developer and sometimes designer...</h2>
   </article>
 </section>
 
-<section id="work" class="work section-light">
+<section id="work" class="trigger work section-light">
 
   {% for post in site.categories.features limit:3 %}
     <article class="work-project">
@@ -30,13 +30,13 @@ layout: home
   <a href="/features" class="btn-all">[ See all work ]</a>
 </div>
 
-<section id="about" class="bio bio2 section-light">
+<section id="about" class="trigger bio bio2 section-light">
   <article>
     <p>Wannabe philosopher and dedicated gamer. If I'm not writing some HTML or Sass in Sublime Text, I'm playing a video game, browsing The Front Page of the Internet, or sleeping in a tent somewhere.</p>
   </article>
 </section>
 
-<section id="blog" class="work section-light page-content">
+<section id="blog" class="trigger work section-light page-content">
   <article>
 
     <h3 class="project-title">Blog <span>A collection of things</span> </h3>
