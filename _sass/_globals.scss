@@ -1,0 +1,105 @@
+::selection {
+  background: $col-accent; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $col-accent; /* Gecko Browsers */
+}
+
+.horizontal-center { @extend %horizontal-center; }
+%horizontal-center {
+  margin: 0 auto;
+}
+
+.vertical-center { @extend %vertical-center; }
+%vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: $col-accent;
+  transition: all 0.1s;
+  &:hover {
+    color: $col-main;
+  }
+}
+
+%default-txt-style {
+  font-family: $font-body;
+  font-size: 1.5em;
+  line-height: 1.6;
+  @include breakpoint(med-screen) {
+    line-height: 1.5;
+    font-size: 1.2em;
+  }
+  &.small {
+    font-size: 1em;
+    max-width: 850px;
+  }
+}
+
+p {
+  @extend %default-txt-style;
+}
+
+%header-font {
+  font-family: $font-header;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: $font-body;
+  font-size: 2.3em;
+}
+
+h3 {
+  @extend %header-font;
+  font-size: 1.6875em;
+}
+
+section {
+  width: 100%;
+}
+
+.accent {
+  color: $col-accent;
+}
+
+.accent2 {
+  color: $col-main;
+}
+
+article {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+label {
+  display: none;
+}
+
+.pull-r {
+  float: right;
+}
+
+.pull-l {
+  float: left;
+}
+

@@ -1,0 +1,41 @@
+.bio {
+  position: relative;
+  padding: 200px 0;
+  background: {
+    color: $col-neutral;
+    image: url('../../img/bio-bg.jpg');
+    repeat: no-repeat;
+    size: cover;
+    position: center 80%;
+  }
+  color: white;
+  @include transition(padding, 1s, ease);
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.bio2 {
+  background: {
+    image: url('../../img/bio2-bg.jpg');
+    position: center;
+  }
+}
+
+.bio-long {
+  padding: 8em 0;
+  @include breakpoint(lrg-screen) {
+    padding: 5.8em 0;
+    background-position: center 60%;
+  }
+  .bio-open {
+    display: none;
+  }
+  .btn-open {
+    display: none;
+  }
+  p {
+    display: block;
+    margin: 0 auto;
+  }
+}

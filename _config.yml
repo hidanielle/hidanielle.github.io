@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: hidanielle | front end developer and sometimes designer | toronto
+email: hello@hidanielle.com
+description: "Front End Developer from Toronto, Canada."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hidanielle.com" # the base hostname & protocol for your site
+twitter_username: hidanielle
+github_username:  hidanielle
+
+# Build settings
+markdown: kramdown
+
+permalink: /:categories/:title/

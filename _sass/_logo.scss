@@ -1,0 +1,87 @@
+.logo {
+  h1 {
+    position: relative;
+    float: left;
+    color: $col-main;
+    font: {
+      family: $font-logo;
+      weight: normal;
+      size: 2.3125em;
+    }
+    a {
+      color: $col-main;
+    }
+    .ie & {
+      text-indent: -9999px;
+      height: 73px;
+      width: 60px;
+      background-image: url('../../img/dcg-logo.png');
+    }
+    &:after {
+      @include transform(scaleY(-1));
+      color: $col-accent;
+      position: absolute;
+      width: 1.5em;
+      height: 1em;
+      content: 'DCG';
+      left: 0;
+      top: 0.8em; 
+      .ie & {
+        display: none;
+      }
+    }
+  }
+  h2 {
+    margin: 0.7em 0;
+    float: right;
+    border-left: 5px solid $col-light;
+    color: $col-accent;
+    text: {
+      transform: uppercase;
+      indent: 0.7em;
+    }
+    font: {
+      family: $font-header;
+      weight: normal;
+      size: 1.6875em;
+    }
+  }
+  header & {
+    margin: 0 auto;
+    max-width: 290px;
+    height: 68px;
+    h1 {
+      @include transform(translateY(0em));
+      display: inline-block;
+    }
+    h2 {
+      display: inline;
+    }
+  }
+  nav & {
+    h1 {
+      font-size: 1.9em;
+      margin-top: 0.4em;
+      @include breakpoint(sml-screen) {
+        font-size: 1.5em;
+      } 
+    }
+    h2 {
+      display: none;
+    }
+  }
+  .scrolled & {
+    .ie & {
+      h1 {
+        background-size: 100%; 
+        width: 46px;
+        height: 56px;
+      }
+    }
+    h1 {
+      @extend %animated;
+      @include animation-name(fadeInDown);
+      @include animation-duration(0.5s);
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <!--[if lte IE 8]>
+  <body style="overflow:hidden">
+    <div class="ie-overlay">
+      <img src="img/yunoupdate.png" alt="Sad Kitty">
+      <h1>You are using a severely outdated browser.<br>Please upgrade, for your own good!</h1>
+      <a href="https://www.google.com/intl/en-CA/chrome/browser/">Try Google Chrome</a>
+    </div>
+  </body>
+  <![endif]-->
+  <!--[if IE 9]>
+  <body class="ie">
+  <![endif]-->
+  <!--[if !IE]><!-->  
+
+  <body class="feature">
+
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    <script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
+    <script type="text/javascript" src="/scripts/waypoints.min.js"></script> 
+    <script type="text/javascript" src="/scripts/waypoints-sticky.min.js"></script> 
+    <script type="text/javascript" src="/scripts/salvatore.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+
+  </body>
+
+</html>

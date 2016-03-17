@@ -23,18 +23,20 @@ $('nav').waypoint('sticky', {
 });
 
 $('.section-light').waypoint(function() {
+  if ($('nav:not(.nav-dark)')) {
     $('nav').toggleClass('nav-dark');
+  }
 }, {
   offset: 80
 });
 
-$('.section-light').waypoint(function(direction) {
-  $('nav').toggleClass('nav-dark');
-}, {
-  offset: function() {
-    return -$(this).outerHeight() + 80;
-  }
-});
+// $('.section-light').waypoint(function(direction) {
+//   $('nav').toggleClass('nav-dark');
+// }, {
+//   offset: function() {
+//     return -$(this).outerHeight() + 80;
+//   }
+// });
 
 $('.btn-up').waypoint(function() {
   $('.btn-up').toggleClass('animated fadeInUp');
