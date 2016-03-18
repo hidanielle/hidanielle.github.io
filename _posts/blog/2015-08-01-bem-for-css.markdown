@@ -52,6 +52,7 @@ Probably the biggest part of BEM CSS is, the naming convention. The goal here, i
 {% endhighlight %}
 
 **Example:**
+
 {% highlight css %}
 menu__item {}
 lang-switcher__lang-icon {}
@@ -68,11 +69,13 @@ The full name for a modifier is created in two different ways (depending on the 
 When applying a modifier to a block or element, don’t forget to apply the original block/element class as well. This was, your block or element will inherit all of the styles of a normal block or element of it's kind, and the modifier will then be applied on top.
 
 **DO:**
+
 {% highlight html %}
 <div class="menu menu_hidden">...</div>
 {% endhighlight %}
 
 **DON’T:**
+
 {% highlight html %}
 <div class="menu_hidden">...</div>
 {% endhighlight %}
@@ -80,6 +83,7 @@ When applying a modifier to a block or element, don’t forget to apply the orig
 ## Full BEM Example:
 
 **HTML:**
+
 {% highlight html %}
 <form class="form form_login form_theme_forest">
     <input class="form__input">
@@ -88,6 +92,7 @@ When applying a modifier to a block or element, don’t forget to apply the orig
 {% endhighlight %}
 
 **CSS:**
+
 {% highlight css %}
 .form {}
 .form_theme_forest {}
@@ -118,6 +123,7 @@ A block can have a nested element structure in a DOM tree, but in BEM, the **ele
 What does this mean? Basically, you can put elements inside eachother, but their names will still be based off of the original block. You don't just keep adding elements after elements.
 
 **DOM Tree:**
+
 {% highlight html %}
 <div class="block">
     <div class="block__elem1">
@@ -129,6 +135,7 @@ What does this mean? Basically, you can put elements inside eachother, but their
 {% endhighlight %}
 
 **BEM:**
+
 {% highlight css %}
 .block {}
 .block__elem1 {}
