@@ -6,9 +6,9 @@ categories:
 - blog
 ---
 
-The following snippet of code taks a px value font size and converts it into rem, with a px fallback. This is a really cool idea that I saw in the [OOCSS repo](https://github.com/stubbornella/oocss/blob/master/oocss/src/components/utils/_fontSize.scss) and have been using ever since. It's a really great way to see how Sass can help you beyond just nesting blocks of CSS! 
+The following snippet of code takes a px value font size and converts it into rem, with a px fallback. This is a really cool idea that I saw in the [OOCSS repo](https://github.com/stubbornella/oocss/blob/master/oocss/src/components/utils/_fontSize.scss) and have been using ever since. It's a really great way to see how Sass can help you beyond just nesting blocks of CSS! 
 
-Rems are similar to ems in that they are a scalavle CSS unit but they are much more predictable. They were introduced in CSS3 and they are relative to the root HTML element as opposed to the parent - so you wouldn't have to worry about confusing em calculations anymore.
+Rems are similar to ems in that they are a scalable CSS unit but they are much more predictable. They were introduced in CSS3 and they are relative to the root HTML element as opposed to the parent - so you wouldn't have to worry about confusing em calculations anymore.
 
 {% highlight scss %}
 /**
