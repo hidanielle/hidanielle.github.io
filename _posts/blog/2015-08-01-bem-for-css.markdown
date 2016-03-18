@@ -61,6 +61,7 @@ lang-switcher__lang-icon {}
 ### Modifiers identify as belonging to that block OR element - delimited by a single underscore **“_"**
 
 The full name for a modifier is created in two different ways (depending on the type of modifier)
+
 * For Boolean modifiers — *owner-name_mod-name*
   * eg. `.menu_hidden {}`
 * For key-value type modifiers — *owner-name_mod-name_mod-val*
