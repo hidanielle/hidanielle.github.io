@@ -10,6 +10,6 @@ img: "/assets/thumbs/th-dev-forward-1.jpg"
 
 Countdown uses **local storage** and **moment.js** to count down to user-submitted events. I built this application while following the *Angular* tutorial in an effort to familiarize myself with the framework. The application takes multiple countdowns and lists them out. Each event has a feature page so that it can be bookmarked or, for example, set as a homepage. There are definitely kinks to work out, but overall I'm happy with the outcome and hope to use my free time to add-on to the application. 
 
-[View it on Github](https://github.com/hidanielle/forward.to)
+[Check it out](http://countdown.hidanielle.com/#/forward-to) / [View it on Github](https://github.com/hidanielle/forward.to)
 
 ![Countdown website](/assets/feature/dev-forward-1.jpg)

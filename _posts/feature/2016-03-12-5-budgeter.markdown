@@ -10,6 +10,6 @@ img: "/assets/thumbs/th-budgeter.jpg"
 
 I created Budgeter as another research project with Angular. This time, I was inspired by an excel sheet that calculated your monthly budgets. As I'm very new to Angular and front end frameworks in general, I figured it would be a fun, small project to try to recreate. Right now, the application won't store any information and is purely for demonstration. All of the totals add up immediately and update a piechart on the page to visually represent your budgets. This application was also one of my first times using purely Bootstrap for the front end design.
 
-[View it on Github](https://github.com/hidanielle/budgeter)
+[Check it out](http://budgeter.hidanielle.com/#/) / [View it on Github](https://github.com/hidanielle/budgeter)
 
 ![Budgeter website](/assets/feature/dev-budget.jpg)
