@@ -6,9 +6,7 @@ categories:
 - blog
 ---
 
-## I did it! 
-
-### I made the switch to Sublime Text 3.
+I finally did it, I made the switch to Sublime Text 3.
 
 For a (very) brief period of time (read: 3 hours), I thought Atom would be my text editor of choice. It's very pretty, by default, and it comes equipped with a shortcut to open through the command line, something you have to manually set up in Sublime. However, those two benefits, seemed to be overshadowed by the unfortunate reality that is the lack of keyboard shortcuts :(.
 
