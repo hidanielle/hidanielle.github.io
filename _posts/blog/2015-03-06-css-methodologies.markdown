@@ -6,10 +6,12 @@ categories:
 - blog
 ---
 
+This is based off of a presentation I put together for an intro to CSS Methodologies. I thought it might be beneficial to write it out here (as opposed to only having it in Powerpoint). I apologize if some of the descriptions are brief, as it was written to be accompanied by my speaking :)
+
+## Object Oriented CSS (OOCSS)
+
 Objects in front-end development are simply HTML elements. The CSS is where we make those objects, or elements, modular and location independent to be able to place them anywhere on a page and behave predictably.
 
-
-This is based off of a presentation I put together for an intro to CSS Methodologies. I thought it might be beneficial to write it out here (as opposed to only having it in Powerpoint). I apologize if some of the descriptions are brief, as it was written to be accompanied by my speaking :)
 
 ## Basic principles:
 
@@ -28,7 +30,6 @@ Any object should be able to be placed in another container and still look and b
 * Most beneficial on large projects but still good on smaller ones because it forces you to think.
 * Smaller CSS files
 * Easier to change parts of a site; piece of mind.
-
 
 ***
 
