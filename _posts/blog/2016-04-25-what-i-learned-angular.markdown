@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What I learned while trying to learn Angular"
-date:   2015-04-25 12:48:54 -0500
+date:   2016-04-25 12:48:54 -0500
 categories:
 - blog
 ---
