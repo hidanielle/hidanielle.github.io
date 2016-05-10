@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-Recently, I was tasked with implementing a header video background. While not my favourite idea for accessibility reasons, I know that it looks cool and flashy... and clients love cool and flashy things.
+Recently, I was tasked with implementing a header video background. While not my favourite idea for accessibility reasons, I know that it looks cool and flashy... and clients love cool and flashy things. 
 
 I decided to inject the video into the DOM after the page loads. I wanted to do it this way so that the rest of the page doesn't have to be held up by the video loading. Of course, this means that some people may not see the video at all, depending on download speeds, as they could have scrolled passed before it even loads. That's a risk I'm willing to take though, because I think the pro of this approach outweigh the con.
 
