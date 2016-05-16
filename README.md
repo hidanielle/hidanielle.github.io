@@ -8,3 +8,6 @@
 * Make fully accessible
 * Add animations
 * Add smooth scrolling
+* Load more on blog
+* Add site map
+* Tweak style of blog
