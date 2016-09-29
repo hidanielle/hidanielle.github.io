@@ -18,3 +18,5 @@ github_username:  hidanielle
 markdown: kramdown
 
 permalink: /:categories/:title/
+
+port: 4001

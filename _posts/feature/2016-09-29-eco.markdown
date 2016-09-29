@@ -1,0 +1,19 @@
+---
+layout: feature
+title:  "Economical Insurance"
+date:   2016-09-29 12:48:54 -0500
+categories:
+- features
+tags: "Kentico, accessibility, agile, flexbox"
+img: "/assets/thumbs/th-eco.jpg"
+---
+
+The [Economical Insurance](http://economical.com) corporate site is built within the *Kentico CMS* and is fully *accessible*. My first large site within a CMS, it was interesting wrapping my head around the challenges that come with building more modular components. I worked closely with another front end developer and back end developers to make each component accessible, including videos embedded in carousels, form elements with tooltips, and a large navigation 3 levels deep. With support for modern browsers only, I got to work a lot with *Flexbox* and fell in love with it. Within the CMS, the site is extremely flexible, giving clients many options for layout and configuration.
+
+[Check out the live site](http://economical.com)
+
+![Economical Insurance website](/assets/feature/dev-eco-mobile.jpg)
+![Economical Insurance website](/assets/feature/dev-eco-1.jpg)
+![Economical Insurance website](/assets/feature/dev-eco-2.jpg)
+![Economical Insurance website](/assets/feature/dev-eco-3.jpg)
+![Economical Insurance website](/assets/feature/dev-eco-4.jpg)

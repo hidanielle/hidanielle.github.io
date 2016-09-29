@@ -12,7 +12,7 @@ These two simple campaign websites for Heineken, Embrace the Cold and BrewLock, 
 
 Map functionality on the site includes filtering across city as well as the different types of events. Embrace the Cold also hooked up to the Open Weather API to pull in weather information for whatever city you select.
 
-[Embrace the Cold](http://embracethecold.ca/en/?HeinekenLDA=Pass/)
+Unfortunately, as this was a campaign website, the site is no longer active.
 
 ![Heineken website](/assets/feature/dev-hkn-1.jpg)
 ![Heineken website](/assets/feature/dev-hkn-2.jpg)

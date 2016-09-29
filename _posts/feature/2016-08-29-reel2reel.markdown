@@ -1,0 +1,21 @@
+---
+layout: feature
+title:  "Reel 2 Reel"
+date:   2016-09-29 12:48:54 -0500
+categories:
+- features
+tags: "Flexbox, soundcloud, jekyll, design"
+img: "/assets/thumbs/th-r2r.jpg"
+---
+
+[Reel 2 Reel Podcast](http://reel2reel.org) is an excellent podcast about celebrities and movies and, most recently, includes a spin off series about The Bachelorette Canada, called Rose 2 Rose. I had the opportunity to build a quick site that aggregated the episodes and provided a global place for the creators to link out to. The site is set up using *Jekyll* for blogs and the *Soundcloud API* to pull in a list of recent episodes and a feature episode including description. It uses *flexbox* for layout and was designed by myself in the browser.
+
+On top of the site, I was responsible for the general branding of the podcast, including creation of the logo and the caricatures! 
+
+
+[Check out the podcast](http://reel2reel.org) 
+
+![Reel 2 Reel website mobile](/assets/feature/dev-r2r-mobile.jpg)
+![Reel 2 Reel website](/assets/feature/dev-r2r-1.jpg)
+![Reel 2 Reel website](/assets/feature/dev-r2r-2.jpg)
+![Reel 2 Reel website](/assets/feature/dev-r2r-3.jpg)
