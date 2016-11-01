@@ -1,4 +1,4 @@
-﻿/*
+/*
  * HTML5 Boilerplate
  *
  * What follows is the result of much research on cross-browser styling.
@@ -518,6 +518,7 @@ section#main h3 {
     /*padding: 0px 20px;*/
     color: rgb(10, 105, 173) !important;
     font-family:'Serifa W01 45 Light', serif !important;
+    font-weight: normal !important;
     text-transform: none! important;
 }
 /* section#main h2 {
@@ -534,6 +535,7 @@ section#main h2 {
     clear: both;
     color: rgb(10, 105, 173) !important;
     font-family:'Serifa W01 45 Light', serif !important;
+    font-weight: normal !important;
     text-transform: none! important;
 }
 section#main p {
@@ -732,7 +734,7 @@ section.highlights article h1 {
     margin: 0;
     padding: 0 0 0 60px !important;
     color: rgb(60, 60, 62);
-    font-size: 2.4em;
+    font-size: 2.8em !important;
     font-weight: bold;
     height: 43px;
     color: rgb(10, 105, 173) !important;
@@ -755,7 +757,8 @@ section.highlights article a.cta-button {
     width: 75%;
     border-bottom-left-radius: 0;
     height: 35px;
-    padding: 10px;
+    line-height: 35px;
+    padding: 0;
     text-align: center;
     font-weight: bold;
 }
@@ -793,6 +796,7 @@ section.marketing article {
             section.marketing h1 {
                 color: rgb(10, 105, 173) !important;
                 font-family:'Serifa W01 45 Light', serif !important;
+                font-weight: normal !important;
                 text-transform: none! important;
             }
 
