@@ -1,7 +1,7 @@
 ---
 layout: feature
 title:  "Reel 2 Reel"
-date:   2016-09-29 12:48:54 -0500
+date:   2016-09-25 12:48:54 -0500
 categories:
 - features
 tags: "Flexbox, soundcloud, jekyll, design"
