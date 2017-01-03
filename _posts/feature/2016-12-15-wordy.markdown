@@ -8,7 +8,9 @@ tags: "Vue.js, Postcss"
 img: "/assets/thumbs/th-wordy.jpg"
 ---
 
-Wordy Wonderland was a fun internal project at ecentricarts for our 2016 company Holiday Card. I was part of the team from inception, brainstorming ideas through design workshops, to eventually building the finished product. The application is built with [Vue.js](https://vuejs.org/) and uses [Vue Router](https://router.vuejs.org/en/). Some of the features include randomly selecting words from a bank of words based off of type, to generate a completed madlib. This was my first time using Vue, and I definitely learned a lot. It was very easy to get up and running with, which means I likely made a lot of rookie mistakes. Some challenges on this project included using Webpack and Postcss, both of which I don't have experience with. I found local CSS to be quite difficult to wrap my head around, which lead to messier and less DRY code for me. Overall, building the card was extremely fun and I'm super happy with the end result!
+Wordy Wonderland was a fun internal project at ecentricarts for our 2016 company Holiday Card. I was part of the team from inception, brainstorming ideas through design workshops, to eventually building the finished product. The application is built with [Vue.js](https://vuejs.org/) and uses [Vue Router](https://router.vuejs.org/en/). Some of the features include randomly selecting words from a bank of words based off of type, to generate a completed madlib. 
+
+This was my first time using Vue, and I definitely learned a lot. It was very easy to get up and running with, which means I likely made a lot of rookie mistakes. Some challenges on this project included using Webpack and Postcss, both of which I don't have experience with. I found local CSS to be quite difficult to wrap my head around, which lead to messier and less DRY code for me. Overall, building the card was extremely fun and I'm super happy with the end result!
 
 [Check it out here](http://wordywonderland.ecentricarts.com/)
 
