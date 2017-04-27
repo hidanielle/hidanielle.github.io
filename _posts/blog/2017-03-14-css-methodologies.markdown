@@ -6,8 +6,6 @@ categories:
 - blog
 ---
 
-_Naming conventions and file structures_
-
 > Modularity, DRY, SRP, etc. is never a goal, \*it’s a trait\*. Don’t
 > let the pursuit of theory get in the way of actual productivity.” -
 > @csswizardry
