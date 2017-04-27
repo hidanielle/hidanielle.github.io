@@ -6,8 +6,6 @@ categories:
 - blog
 ---
 
-# CSS Methodologies
-
 _Naming conventions and file structures_
 
 > Modularity, DRY, SRP, etc. is never a goal, \*it’s a trait\*. Don’t
