@@ -6,7 +6,6 @@ categories:
 - blog
 ---
 
-# Level up your Sass with the ampersand
 In Sass, the ampersand(&) represents the current selector. Paired with nesting, this allows us to do a variety of things from super simple to _when-would-I-ever-actually-do-this_ complex. 
 
 Technically, you can think of the ampersand like a variable that always represents the current selector, or "whatever is before the opening curly brace". So, wherever you place an `&`, your current selector will be copy and pasted there in your compiled CSS.  If you're used to using Sass, you probably can't imagine a world without nesting your CSS rules. Well, the & makes that world so much better. It allows us to make more complex selectors while keeping our relevant code all in the same place.
