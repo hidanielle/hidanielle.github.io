@@ -18,3 +18,4 @@ This was my first time using Vue, and I definitely learned a lot. It was very ea
 ![Wordy Wonderland Mobile screens](/assets/feature/dev-wordy-mobile.jpg)
 ![Wordy Wonderland Question page](/assets/feature/dev-wordy2.jpg)
 ![Wordy Wonderland Story Page](/assets/feature/dev-wordy3.jpg)
+
