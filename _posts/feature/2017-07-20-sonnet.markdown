@@ -1,0 +1,24 @@
+---
+layout: feature
+title:  "Sonnet"
+date:   2017-07-20 12:48:54 -0500
+categories:
+- features
+tags: "ITCSS, pug, i18n, animation"
+img: "/assets/thumbs/sonnet-t-min.jpg"
+---
+
+For the most part, the Sonnet website rebrand was a relatively straight forward build of static templates. The process was very manual, in that static templates were passed off and implemented into a CMS by a different development team. To maximize efficiency due to a tight timeline, I developed a process for building the website using Pug for templating as well as the Pug i18n plugin to create each page in English and French. 
+
+By using Pug, I was able to break site components down into separate files and utilize mixins for common functionality. This was helpful because a lot of the pages use similar, if not the exact same, styled components. If I had just been using static HTML, this process would have involved a lot of copy and pasting, which would have been more of a nightmare when working on fixes. Additionally, the site was intended to be implemented into a CMS in the future, so these content components modular will make that process much easier.
+
+In order to challenge myself, I decided to structure my CSS by roughly following the ITCSS methodology, primarily for folder and file structure but with no strict naming convention. This was a very interesting experience and I really enjoyed breaking up the styles this way. In anticipation of the site becoming more dynamic and integrated into a CMS, most of the site components have different modifier classes so that the same HTML structure can be used to achieve various layouts (for example, all of the different coloured block sections).
+
+All content was entered in yml files in order to make content entry and updates easier, since editing content in HTML is a developers nightmare. This also made creating french pages much more smoothe of a process. 
+
+Since the deployment, the site has been handed off to the Sonnet team and is no longer maintained by ecentricarts, but you can [view the live site here](http://sonnet.ca) 
+
+![Sonnet Homepage](/assets/feature/sonnet1-min.jpg)
+![Sonnet Mobile Screens](/assets/feature/sonnetm-min.jpg)
+![Sonnet Auto Insurance page showing carousel](/assets/feature/sonnet2-min.jpg)
+![Sonnet homepage showing video](/assets/feature/sonnet2-min.jpg)
