@@ -6,6 +6,8 @@ categories:
 - blog
 ---
 
+_Originally posted on [Codepen](https://codepen.io/hidanielle/post/level-up-your-sass-with-the-ampersand)_
+
 When was the last time you wrote vanilla CSS? As a front end developer, it's hard to imagine a world without CSS preprocessors and all of the functionality they provide. They give us features like variables and functions and organizational benefits like partial includes and selector nesting. 
 
 As the most popular CSS preprocessor out there, [Sass](http://sass-lang.com/) just makes CSS _better_... but most developers barely even scratch the surface of what it can do.

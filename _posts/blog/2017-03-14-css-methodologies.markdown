@@ -6,6 +6,8 @@ categories:
 - blog
 ---
 
+_Originally posted on [Codepen](https://codepen.io/hidanielle/post/css-methodologies-naming-conventions-and-file-structures)_
+
 CSS Methodologies are structured ways of writing and organizing your CSS and HTML. Adopting a standard convention has benefits across small and large projects, but choosing the right one can be difficult at first. The range of methodologies go from strict to more relaxed, and sometimes even rolling your own convention is the best way to go. Below, I've compiled various popular CSS mehodologies and a (somewhat) brief introduction of each.
 
 > Modularity, DRY, SRP, etc. is never a goal, \*it’s a trait\*. Don’t

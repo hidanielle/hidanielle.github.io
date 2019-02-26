@@ -5,7 +5,7 @@ date:   2018-07-26 12:48:54 -0500
 categories:
 - features
 tags: "ITCSS, Vuejs, accessibility, Kentico Cloud, Google Maps"
-img: "/assets/thumbs/ndt-t-min.jpg"
+img: "/assets/thumbs/th-ndt.jpg"
 ---
 
 Supported by the National Diabetes Trust, the Diabetes Canada Declutter program allows people to easily donate used household items, clothing, etc. by scheduling an at-home pick up or dropping off at one of thousands of donation bins across the country. 
