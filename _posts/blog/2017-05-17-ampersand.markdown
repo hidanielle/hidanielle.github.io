@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Level up your Sass with the ampersand"
-date:   2017-17-05 12:48:54 -0500
+date:   2017-05-17 12:48:54 -0500
 categories:
 - blog
 ---

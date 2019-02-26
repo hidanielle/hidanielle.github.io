@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An introduction to CSS Methodologies: Naming Conventions and File Structures"
-date:   2017-14-03 12:48:54 -0500
+date:   2017-03-14 12:48:54 -0500
 categories:
 - blog
 ---
