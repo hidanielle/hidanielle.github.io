@@ -9,7 +9,7 @@ const IndexPage = ({ data }) => {
   const content = data.contentfulBio;
   return (
     <Layout>
-      <SEO title="hidanielle - front end developer" />
+      <SEO title="front end developer" />
       <h1>Hi, I'm Danielle</h1>
       <div className="large" dangerouslySetInnerHTML={{__html: content.description.childMarkdownRemark.html}}></div>
       <div dangerouslySetInnerHTML={{__html: content.additionalInfo.childMarkdownRemark.html}}></div>
