@@ -642,12 +642,12 @@ a {
   color: #d43900;
   text-decoration: none;
   border: 2px solid transparent;
-  border-bottom-color: #d43900;
+  border-bottom-color: currentColor;
 }
 
 a:hover,
 a:focus {
-  border-color: #d43900;
+  border-color: currentColor;
 }
 
 code {
@@ -662,5 +662,18 @@ code {
 @media only screen and (min-width: 480px) {
   h1 {
     font-size: 4rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #151515;
+    color: #ffffff;
+  }
+  a {
+    color: #f7d902;
+  }
+  code, pre {
+    background-color: #f7d902;
   }
 }
