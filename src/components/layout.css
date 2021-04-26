@@ -572,7 +572,7 @@ td:last-child {
 }
 tt,
 code {
-  background-color: hsla(0, 0%, 0%, 0.04);
+  background-color: hsl(50deg 84% 54%);
   border-radius: 3px;
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
@@ -605,6 +605,8 @@ pre tt:after {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background: #ffe04b;
+  color: #222222;
 }
 
 .container {
@@ -639,19 +641,22 @@ p {
 }
 
 a {
-  color: #d43900;
+  color: #ffe04b;
+  background: #222222;
+  display: inline-block;
+  padding: 0 0.2em;
+  border-radius: 0.2em;
   text-decoration: none;
-  border: 2px solid transparent;
-  border-bottom-color: currentColor;
 }
 
 a:hover,
 a:focus {
-  border-color: currentColor;
+  outline: #e00000 solid 0.2em;
+  outline-offset: 0.1em;
 }
 
 code {
-  color: #000000;
+  color: currentColor;
 }
 
 .large {
@@ -667,13 +672,14 @@ code {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #151515;
-    color: #ffffff;
+    background: #222222;
+    color: #ffe04b;
   }
   a {
-    color: #f7d902;
+    color: #222222;
+    background: #ffe04b;
   }
-  code, pre {
-    background-color: #f7d902;
+  tt, code {
+    background-color: hsl(0deg 0% 0% / 54%);
   }
 }
