@@ -185,7 +185,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 150%/1.7em 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -200,7 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -599,7 +599,7 @@ pre tt:after {
 }
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 100%;
+    font-size: 120%;
   }
 }
 
@@ -629,6 +629,7 @@ main {
 
 footer {
   align-self: flex-end;
+  padding-bottom: 1rem;
 }
 
 h1, h2, h3, h4 {
@@ -647,6 +648,7 @@ a {
   padding: 0 0.2em;
   border-radius: 0.2em;
   text-decoration: none;
+  line-height: 1.2em;
 }
 
 a:hover,
